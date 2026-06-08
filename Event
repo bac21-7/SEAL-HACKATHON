@@ -1,0 +1,13 @@
+package com.seal.sealsystem.entity;
+import jakarta.persistence.*;
+import lombok.Data;
+@Entity
+@Data
+public class Event {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String name;
+}
