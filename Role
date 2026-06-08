@@ -1,9 +1,0 @@
-package com.seal.sealsystem.entity;
-import jakarta.persistence.*;
-import lombok.Data;
-
-public enum Role {
-    ADMIN,
-    PLAYER,
-    ORGANIZER
-}
